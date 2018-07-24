@@ -12,7 +12,17 @@ drink_list = [
 			"gin": 50,
 			"tonic": 100
 		}
-	}, {
+	},  {
+		"name": "All pump test",
+			"ingredients": {
+				"gin": 50,
+				"gin2": 50,
+				"gin3": 50,
+				"tonic": 50,
+				"tonic2": 50,
+				"tonic3": 50
+    }
+  }, {
 		"name": "Long Island",
 		"ingredients": {
 			"gin": 15,
@@ -51,6 +61,10 @@ drink_list = [
 
 drink_options = [
 	{"name": "Gin", "value": "gin"},
+	{"name": "Gin2", "value": "gin2"},
+	{"name": "Gin3", "value": "gin3"},
+	{"name": "Tonic Water2", "value": "tonic2"},
+	{"name": "Tonic Water3", "value": "tonic3"},
 	{"name": "Rum", "value": "rum"},
 	{"name": "Vodka", "value": "vodka"},
 	{"name": "Tequila", "value": "tequila"},
